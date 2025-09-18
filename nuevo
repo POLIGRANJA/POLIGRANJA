@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poligranja S.A</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fdfdf9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #4CAF50, #8BC34A);
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #FFD54F;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #4E342E;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section h2 {
+      color: #4CAF50;
+      margin-bottom: 15px;
+    }
+    .productos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+      width: 250px;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background: #4E342E;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .contacto {
+      margin-top: 20px;
+    }
+    .whatsapp {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #25D366;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .logos {
+      margin-top: 20px;
+    }
+    .logos img {
+      max-height: 50px;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bienvenidos a Poligranja S.A</h1>
+    <p>Productores de huevos criollos orgánicos 🥚🌱</p>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Quiénes Somos</a>
+    <a href="#productos">Nuestros Productos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>Quiénes Somos</h2>
+    <p>Poligranja S.A es una granja agrícola creada con recursos del 
+    <strong>FONDO EMPRENDER - SENA</strong>, dedicada a la producción de huevos criollos orgánicos y saludables.</p>
+    <p>Nuestras gallinas criollas son alimentadas con proteína natural, libres de químicos, para garantizar un producto fresco y nutritivo.</p>
+    <div class="logos">
+      <!-- Aquí puedes poner los logos del SENA y FONDO EMPRENDER -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/SENA_logo.svg/512px-SENA_logo.svg.png" alt="SENA Logo">
+      <img src="https://www.fondoemprender.com/SiteAssets/logo_fondo_emprender.png" alt="Fondo Emprender Logo">
+    </div>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="productos">
+      <div class="card">
+        <h3>Huevos Criollos Orgánicos</h3>
+        <p>Producidos de forma natural por gallinas libres, alimentadas con proteína natural. 🐔🥚</p>
+      </div>
+      <div class="card">
+        <h3>Producción Responsable</h3>
+        <p>Comprometidos con el bienestar animal y la sostenibilidad agrícola. 🌱</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📞 Teléfono: <strong>314 203 2202</strong></p>
+    <p>📧 Correo: <strong>jhcamposp@gmail.com</strong></p>
+    <a class="whatsapp" href="https://wa.me/573142032202" target="_blank">💬 Escríbenos por WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Poligranja S.A - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
